@@ -26,6 +26,4 @@ public class AdminController {
     ){
       return ResponseEntity.ok(patientService.getAllPatients(pageNumber,pageSize));
     }
-
-
 }
